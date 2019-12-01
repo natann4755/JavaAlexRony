@@ -1,0 +1,17 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <TextField fx:id="input" GridPane.columnIndex="0" GridPane.rowIndex="0" onKeyReleased="#disable" disable="false" ></TextField>
+    <Button fx:id="Hi" text="sey hello" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#doi" disable="true"></Button>
+    <Button fx:id="Bye" text="sey goodbay" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#doi" disable="true"></Button>
+
+    <CheckBox fx:id="chek" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#riset"></CheckBox>
+
+    <Label text="label" fx:id="label" GridPane.rowIndex="2" GridPane.columnIndex="0"></Label>
+</GridPane>

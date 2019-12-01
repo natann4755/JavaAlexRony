@@ -1,0 +1,22 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+stylesheets="@disein.css">
+
+
+    <Button text="Buton 1" GridPane.columnIndex="0" GridPane.rowIndex="0"
+        id="tttt"   ></Button>
+    <Button text="Buton 2" GridPane.columnIndex="1" GridPane.rowIndex="0"
+            ></Button>
+    <Button text="Buton 3" GridPane.columnIndex="2" GridPane.rowIndex="0"
+           id="tttt" ></Button>
+
+    <Button text="Buton 4" GridPane.columnIndex="3" GridPane.rowIndex="0"
+            style="-fx-background-color : green; -fx-text-file :white" ></Button>
+    <!--<Button text="Buton 4" GridPane.columnIndex="3" GridPane.rowIndex="0"-->
+            <!--style="-fx-background-color : green; -fx-text-file :white"></Button>-->
+</GridPane>
